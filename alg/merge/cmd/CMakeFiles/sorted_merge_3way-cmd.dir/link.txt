@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o" -o sorted_merge_3way-cmd  ../liblibmerge.a

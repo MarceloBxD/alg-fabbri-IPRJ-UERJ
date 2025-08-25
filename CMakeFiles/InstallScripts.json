@@ -1,0 +1,19 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/third_party/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/third_party/googletest/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/third_party/googletest/googlemock/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/third_party/googletest/googletest/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/third_party/benchmark/src/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/third_party/benchmark/test/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/merge/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/merge/cmd/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/merge/tests/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/merge/benchmark/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
