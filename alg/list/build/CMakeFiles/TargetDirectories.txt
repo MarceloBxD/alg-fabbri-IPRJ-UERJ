@@ -1,0 +1,3 @@
+/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/list/build/CMakeFiles/linked_list.dir
+/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/list/build/CMakeFiles/edit_cache.dir
+/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/list/build/CMakeFiles/rebuild_cache.dir

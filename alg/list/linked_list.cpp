@@ -146,7 +146,7 @@ main()
     std::cout << "Hi, select one of the following keys:\n" << std::endl;
 
     while (true) {
-        std::cout << "[P] Print || [I] Insert || [D] Delete || [E] Exit\n" << std::endl;
+        std::cout << "[P] Print and Show Results || [I] Insert || [D] Delete || [E] Exit\n" << std::endl;
 
         std::cin >> x;
 
