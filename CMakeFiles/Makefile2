@@ -2579,7 +2579,7 @@ alg/sort-char/CMakeFiles/eval-sort-char.dir/all: alg/sort-char/benchmark/CMakeFi
 
 # Build rule for subdir invocation for target.
 alg/sort-char/CMakeFiles/eval-sort-char.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/sort-char/CMakeFiles/eval-sort-char.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/CMakeFiles 0
 .PHONY : alg/sort-char/CMakeFiles/eval-sort-char.dir/rule
@@ -2667,7 +2667,7 @@ alg/sort-char/tests/CMakeFiles/test-sort_char.dir/clean:
 # Target rules for target alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir
 
 # All Build rule for target.
-alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/all: alg/sort-char/CMakeFiles/libsort_char.dir/all
+alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/all:
 	$(MAKE) $(MAKESILENT) -f alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/build.make alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/depend
 	$(MAKE) $(MAKESILENT) -f alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/build.make alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/CMakeFiles --progress-num=30 "Built target bm-sort_char-cmd"
@@ -2675,7 +2675,7 @@ alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/all: alg/sort-char/CMake
 
 # Build rule for subdir invocation for target.
 alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/CMakeFiles 0
 .PHONY : alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/rule

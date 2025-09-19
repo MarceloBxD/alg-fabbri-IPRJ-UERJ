@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/bm-sort_char-cmd.dir/benchmark_sort_char.cpp.o" -o bm-sort_char-cmd

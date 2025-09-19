@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibsort_char.a CMakeFiles/libsort_char.dir/sort_char.cpp.o
+/usr/bin/ranlib liblibsort_char.a

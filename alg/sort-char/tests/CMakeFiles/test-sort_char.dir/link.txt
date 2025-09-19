@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/test-sort_char.dir/test_sort_char.cpp.o" -o test-sort_char  ../liblibsort_char.a
