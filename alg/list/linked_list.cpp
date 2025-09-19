@@ -108,6 +108,28 @@ print_list(item* head)
     std::cout << std::endl; // For better spacing
 }
 
+int sum_iterative(item *p) {
+    int total = 0;
+
+    while (p != NULL) {
+        if (p->string != NULL)
+            total += strlen(p->string);
+        p = p->prox;
+    }
+
+    return total;
+}
+
+int sum_recursive(item *p) {
+    if (p == NULL) {
+        return 0;
+    }
+
+    int len = (p->string != NULL) ? strlen(p->string) : 0;
+
+    return len + sum_recursive(p->prox);
+}
+
 int
 main()
 {
@@ -185,7 +207,12 @@ main()
         }
     }
 
-    free_list(head); // Deallocate the entire list
+    int total_iter = sum_iterative(head->prox);
+    int total_rec = sum_recursive(head->prox);
+    std::cout << "Soma dos tamanhos das strings (iterativo): " << total_iter << std::endl;
+    std::cout << "Soma dos tamanhos das strings (recursivo): " << total_rec << std::endl;
+
+    free_list(head); 
 
     return 0;
 }
