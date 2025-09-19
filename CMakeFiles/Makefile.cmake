@@ -16,6 +16,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "alg/merge/benchmark/CMakeLists.txt"
   "alg/merge/cmd/CMakeLists.txt"
   "alg/merge/tests/CMakeLists.txt"
+  "alg/sort-char/CMakeLists.txt"
+  "alg/sort-char/benchmark/CMakeLists.txt"
+  "alg/sort-char/cmd/CMakeLists.txt"
+  "alg/sort-char/tests/CMakeLists.txt"
   "third_party/CMakeLists.txt"
   "third_party/benchmark/CMakeLists.txt"
   "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake"
@@ -118,6 +122,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "alg/merge/cmd/CMakeFiles/CMakeDirectoryInformation.cmake"
   "alg/merge/tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   "alg/merge/benchmark/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "alg/sort-char/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "alg/sort-char/cmd/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "alg/sort-char/tests/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "alg/sort-char/benchmark/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -181,4 +189,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/DependInfo.cmake"
   "alg/merge/tests/CMakeFiles/run-tests.dir/DependInfo.cmake"
   "alg/merge/benchmark/CMakeFiles/bm-sorted_merge_3way-cmd.dir/DependInfo.cmake"
+  "alg/sort-char/CMakeFiles/libsort_char.dir/DependInfo.cmake"
+  "alg/sort-char/CMakeFiles/eval-sort-char.dir/DependInfo.cmake"
+  "alg/sort-char/cmd/CMakeFiles/sort_char-cmd.dir/DependInfo.cmake"
+  "alg/sort-char/tests/CMakeFiles/test-sort_char.dir/DependInfo.cmake"
+  "alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/DependInfo.cmake"
   )

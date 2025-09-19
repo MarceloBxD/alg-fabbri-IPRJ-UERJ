@@ -938,6 +938,71 @@ bm-sorted_merge_3way-cmd/fast:
 	$(MAKE) $(MAKESILENT) -f alg/merge/benchmark/CMakeFiles/bm-sorted_merge_3way-cmd.dir/build.make alg/merge/benchmark/CMakeFiles/bm-sorted_merge_3way-cmd.dir/build
 .PHONY : bm-sorted_merge_3way-cmd/fast
 
+#=============================================================================
+# Target rules for targets named libsort_char
+
+# Build rule for target.
+libsort_char: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsort_char
+.PHONY : libsort_char
+
+# fast build rule for target.
+libsort_char/fast:
+	$(MAKE) $(MAKESILENT) -f alg/sort-char/CMakeFiles/libsort_char.dir/build.make alg/sort-char/CMakeFiles/libsort_char.dir/build
+.PHONY : libsort_char/fast
+
+#=============================================================================
+# Target rules for targets named eval-sort-char
+
+# Build rule for target.
+eval-sort-char: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eval-sort-char
+.PHONY : eval-sort-char
+
+# fast build rule for target.
+eval-sort-char/fast:
+	$(MAKE) $(MAKESILENT) -f alg/sort-char/CMakeFiles/eval-sort-char.dir/build.make alg/sort-char/CMakeFiles/eval-sort-char.dir/build
+.PHONY : eval-sort-char/fast
+
+#=============================================================================
+# Target rules for targets named sort_char-cmd
+
+# Build rule for target.
+sort_char-cmd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sort_char-cmd
+.PHONY : sort_char-cmd
+
+# fast build rule for target.
+sort_char-cmd/fast:
+	$(MAKE) $(MAKESILENT) -f alg/sort-char/cmd/CMakeFiles/sort_char-cmd.dir/build.make alg/sort-char/cmd/CMakeFiles/sort_char-cmd.dir/build
+.PHONY : sort_char-cmd/fast
+
+#=============================================================================
+# Target rules for targets named test-sort_char
+
+# Build rule for target.
+test-sort_char: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test-sort_char
+.PHONY : test-sort_char
+
+# fast build rule for target.
+test-sort_char/fast:
+	$(MAKE) $(MAKESILENT) -f alg/sort-char/tests/CMakeFiles/test-sort_char.dir/build.make alg/sort-char/tests/CMakeFiles/test-sort_char.dir/build
+.PHONY : test-sort_char/fast
+
+#=============================================================================
+# Target rules for targets named bm-sort_char-cmd
+
+# Build rule for target.
+bm-sort_char-cmd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bm-sort_char-cmd
+.PHONY : bm-sort_char-cmd
+
+# fast build rule for target.
+bm-sort_char-cmd/fast:
+	$(MAKE) $(MAKESILENT) -f alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/build.make alg/sort-char/benchmark/CMakeFiles/bm-sort_char-cmd.dir/build
+.PHONY : bm-sort_char-cmd/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -952,6 +1017,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... eval"
+	@echo "... eval-sort-char"
 	@echo "... args_product_test"
 	@echo "... basic_test"
 	@echo "... benchmark"
@@ -964,6 +1030,7 @@ help:
 	@echo "... benchmark_setup_teardown_cb_types_gtest"
 	@echo "... benchmark_setup_teardown_test"
 	@echo "... benchmark_test"
+	@echo "... bm-sort_char-cmd"
 	@echo "... bm-sorted_merge_3way-cmd"
 	@echo "... commandlineflags_gtest"
 	@echo "... complexity_test"
@@ -979,6 +1046,7 @@ help:
 	@echo "... gtest_main"
 	@echo "... internal_threading_test"
 	@echo "... libmerge"
+	@echo "... libsort_char"
 	@echo "... link_main_test"
 	@echo "... manual_threading_test"
 	@echo "... map_test"
@@ -999,6 +1067,7 @@ help:
 	@echo "... reporter_output_test"
 	@echo "... run-tests"
 	@echo "... skip_with_error_test"
+	@echo "... sort_char-cmd"
 	@echo "... sorted_merge_3way-cmd"
 	@echo "... spec_arg_test"
 	@echo "... spec_arg_verbosity_test"
@@ -1006,6 +1075,7 @@ help:
 	@echo "... string_util_gtest"
 	@echo "... templated_fixture_method_test"
 	@echo "... templated_fixture_test"
+	@echo "... test-sort_char"
 	@echo "... time_unit_gtest"
 	@echo "... user_counters_tabular_test"
 	@echo "... user_counters_test"

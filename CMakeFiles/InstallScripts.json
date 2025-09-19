@@ -13,7 +13,11 @@
 		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/merge/cmake_install.cmake",
 		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/merge/cmd/cmake_install.cmake",
 		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/merge/tests/cmake_install.cmake",
-		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/merge/benchmark/cmake_install.cmake"
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/merge/benchmark/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/sort-char/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/sort-char/cmd/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/sort-char/tests/cmake_install.cmake",
+		"/Users/marcelo.bracet/Documents/studies/class-algorithm/alg-fabbri-IPRJ-UERJ/alg/sort-char/benchmark/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
